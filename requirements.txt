@@ -1,0 +1,23 @@
+# Pinned runtime dependencies for the MPA QSP manuscript reproduction pipeline.
+# Versions verified against the environment that generated the published figures
+# and tables on 2026-04-18.
+#
+# To reproduce:
+#   python -m venv .venv
+#   source .venv/bin/activate   (or .venv\Scripts\activate on Windows)
+#   pip install -r requirements.txt
+#   python simulations/run_population_comparison.py
+#   python simulations/run_pkpd_comparison.py
+#   python simulations/run_validation.py
+#   python simulations/run_dose_optimization.py
+#   python simulations/run_variability_decomposition.py
+#   python simulations/run_parameter_sensitivity.py
+#   python simulations/generate_updated_manuscript.py
+#   python simulations/generate_updated_manuscript_docx.py
+
+numpy==1.26.4
+scipy==1.15.3
+matplotlib==3.10.8
+pandas==2.3.3
+python-docx==1.2.0
+lxml==6.0.2
