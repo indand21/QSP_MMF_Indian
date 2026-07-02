@@ -1,0 +1,16 @@
+Supplementary Table S1. Pharmacodynamic Model Parameters
+======================================================================
+Parameter                                           Value        Unit
+----------------------------------------------------------------------
+IMPDH-II Emax                                         1.0           -
+IMPDH-II IC50 (free MPA)                             0.15        mg/L
+Hill coefficient (gamma)                              1.5           -
+GI toxicity AUC50                                      70      mg.h/L
+GI toxicity steepness                                 3.0           -
+Leukopenia IMPDH50                                   0.65           -
+Leukopenia steepness                                  4.0           -
+Rejection IMPDH threshold                            0.30           -
+Therapeutic IMPDH range                         0.30-0.70           -
+Infection lymphocyte threshold                        0.5     x10^9/L
+Baseline lymphocyte count                             2.0     x10^9/L
+======================================================================

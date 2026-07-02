@@ -1,0 +1,24 @@
+Supplementary Table S2. Pharmacokinetic Model Parameters
+===========================================================================
+Parameter                                              Value          Unit
+---------------------------------------------------------------------------
+Absorption rate (ka)                                     4.0            /h
+Lag time (tlag)                                         0.25             h
+Oral bioavailability (F)                                0.81             -
+Gut wall fraction (F_gut)                               0.90             -
+Central volume (Vc)                                     50.0             L
+Peripheral volume (Vp)                                 150.0             L
+Intercompartmental CL (Q)                               30.0           L/h
+CLint UGT1A9                                           345.0           L/h
+CLint UGT2B7                                           115.0           L/h
+Biliary excretion rate (k_bile)                          0.8            /h
+Gut release rate (k_gut)                                0.15            /h
+EHC fraction (f_ehc)                                    0.40             -
+MPAG volume (Vc_mpag)                                   15.0             L
+MPAG renal CL (CLr_mpag)                                 7.5           L/h
+CsA EHC inhibition                                      0.40             -
+CsA OATP1B inhibition                                   0.60             -
+fu reference (at Alb 4.0)                               0.03             -
+MPAG displacement Emax                                  0.50             -
+MPAG displacement EC50                                  30.0          mg/L
+===========================================================================

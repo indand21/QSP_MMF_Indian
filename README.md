@@ -45,12 +45,27 @@ simulations/
   run_parameter_sensitivity.py       Local +/-20% parameter-uncertainty sensitivity analysis
   run_sensitivity_albumin_cni.py     Albumin/CNI matched-scenario sensitivity check
   run_scenario_indian_young.py       Additional lean/young-recipient scenario
-  generate_manuscript_*.py,
-  generate_updated_manuscript_*.py   Figure/table/DOCX manuscript-generation pipeline
+  generate_manuscript_figures.py     Regenerates the main figures (Fig1-4) and Table1/Table2
+figures/             Main manuscript figures (Fig1-4, publication TIFFs) and analysis PNGs
+results/             Numerical result tables (demographics, PK/PD outcomes, validation,
+                     PK/PD parameter tables)
 docs/
   literature_review_MPA_Indian_PK.md   Parameter sourcing and clinical-evidence review
 requirements.txt     Pinned dependencies
 ```
+
+## Figures and results
+
+Precomputed **figures** (`figures/`) and **result tables** (`results/`) are included so the main
+outputs can be inspected without rerunning the pipeline:
+
+- `figures/Fig1-4.tif` — the four main manuscript figures (PK comparison, dose optimization,
+  PK/PD outcomes, model validation), plus supporting analysis PNGs.
+- `results/Table1_Demographics.txt`, `Table2_PKPD_Results.txt`, `Table3_Validation.txt`,
+  `TableS1_PD_Parameters.txt`, `TableS2_PK_Parameters.txt` — the numerical results underlying the
+  manuscript tables.
+
+Everything in `figures/` and `results/` is regenerable from the scripts in `simulations/`.
 
 ## Installation
 

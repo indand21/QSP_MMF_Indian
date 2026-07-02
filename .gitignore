@@ -15,11 +15,7 @@ venv/
 env/
 ENV/
 
-# Generated outputs (regenerable from the scripts)
-outputs/
-*.png
-*.tif
-*.tiff
+# Manuscript document binaries (kept out of the code/results repo)
 *.docx
 *.pdf
 
@@ -29,3 +25,6 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+# Note: figures (figures/*.png, figures/*.tif) and numerical results
+# (results/*.txt) are tracked intentionally.
