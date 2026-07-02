@@ -49,8 +49,6 @@ simulations/
 figures/             Main manuscript figures (Fig1-4, publication TIFFs) and analysis PNGs
 results/             Numerical result tables (demographics, PK/PD outcomes, validation,
                      PK/PD parameter tables)
-docs/
-  literature_review_MPA_Indian_PK.md   Parameter sourcing and clinical-evidence review
 requirements.txt     Pinned dependencies
 ```
 
